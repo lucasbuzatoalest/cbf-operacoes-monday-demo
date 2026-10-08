@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 132" role="img" aria-labelledby="title desc">
+  <title id="title">Escudo CBF — demonstração conceitual</title>
+  <desc id="desc">Assinatura vetorial compacta em verde, amarelo, azul e branco para a Central de Operações.</desc>
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22c875"/><stop offset="1" stop-color="#08784e"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#174e9f"/><stop offset="1" stop-color="#082d6d"/></linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="185%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#01111f" flood-opacity=".35"/></filter>
+  </defs>
+  <g fill="#f8d842">
+    <path d="m20 12 2.2 4.6 5.1.7-3.7 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.7-3.5 5.1-.7z"/>
+    <path d="m38 6 2.2 4.6 5.1.7-3.7 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.7-3.5 5.1-.7z"/>
+    <path d="m56 3 2.2 4.6 5.1.7-3.7 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.7-3.5 5.1-.7z"/>
+    <path d="m74 6 2.2 4.6 5.1.7-3.7 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.7-3.5 5.1-.7z"/>
+    <path d="m92 12 2.2 4.6 5.1.7-3.7 3.5.9 5-4.5-2.4-4.5 2.4.9-5-3.7-3.5 5.1-.7z"/>
+  </g>
+  <path filter="url(#glow)" d="M56 27 99 48v35c0 23-15 36-43 46C28 119 13 106 13 83V48z" fill="url(#shield)" stroke="#baf1d4" stroke-width="2"/>
+  <path d="m56 37 32 16-32 56L24 53z" fill="#f8d842"/>
+  <circle cx="56" cy="73" r="23" fill="url(#core)" stroke="#fff" stroke-width="2"/>
+  <path d="M37 68h38v11H37zM51 54h10v38H51z" fill="#fff" opacity=".96"/>
+  <path d="M41 69h30v9H41zM52 58h8v31h-8z" fill="#16a665"/>
+  <rect x="38" y="65" width="36" height="17" rx="8.5" fill="#fff" stroke="#0b3475" stroke-width="1.5"/>
+  <text x="56" y="77.2" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="900" letter-spacing=".7" fill="#0b3475">CBF</text>
+  <path d="M43 103c8 4 18 4 26 0" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "CBF | Estádios e Governança",
+    "description": "Demonstração fictícia de cadastro, avaliação, decisão e governança de estádios.",
+    "visibility": "private"
+  },
+  "feature": {
+    "type": "custom_object",
+    "name": "CBF | Estádios e Governança",
+    "deployment": "server_side",
+    "route": "/"
+  },
+  "target": {
+    "account": "Alest Demo",
+    "workspaceId": "11127202"
+  },
+  "dataPolicy": {
+    "mode": "demonstration",
+    "containsRealCBFData": false,
+    "noticeRequired": true
+  }
+}

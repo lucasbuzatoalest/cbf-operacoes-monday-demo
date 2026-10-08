@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "app": {
+    "name": "CBF Operações — Estádios & Governança (Demo)",
+    "color": "#A9BEE8",
+    "oauth": {
+      "scopes": []
+    },
+    "features": [
+      {
+        "key": "cbf_operacoes_visao_territorial",
+        "type": "AppFeatureBoardView",
+        "name": "CBF Operações — Visão Territorial",
+        "schemaVersion": "18",
+        "data": {
+          "name": "CBF Operações — Visão Territorial",
+          "mode": "iframe",
+          "hideSidekick": false,
+          "query_parmas": true,
+          "hideBoardControls": false,
+          "isMobileSupported": true,
+          "description": "Central demonstrativa de estádios, competições, avaliações, solicitações e governança."
+        }
+      }
+    ]
+  }
+}
