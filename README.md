@@ -20,6 +20,10 @@ Abra `http://localhost:3000`. O servidor usa apenas APIs nativas do Node.js e n�
 - URL: https://d531f-service-10459683-ba512309.us.monday.app
 - Situação no momento deste registro: versão implantada em rascunho no Developer Center.
 
+## Migração para monday Vibe
+
+O [prompt mestre para recriar a solução no monday Vibe](docs/MONDAY_VIBE_PROMPT.md) reúne o briefing, a experiência visual, o modelo de dados, a base fictícia, as regras de negócio, os critérios de acessibilidade e os prompts de refinamento.
+
 ## Verificar sintaxe
 
 ```bash
