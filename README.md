@@ -24,6 +24,8 @@ Abra `http://localhost:3000`. O servidor usa apenas APIs nativas do Node.js e n�
 
 O [prompt mestre para recriar a solução no monday Vibe](docs/MONDAY_VIBE_PROMPT.md) reúne o briefing, a experiência visual, o modelo de dados, a base fictícia, as regras de negócio, os critérios de acessibilidade e os prompts de refinamento.
 
+Para evitar timeout em gerações longas, use o [plano de implementação em 12 prompts cumulativos](docs/MONDAY_VIBE_IMPLEMENTATION_PLAN.md). Execute um prompt por vez no mesmo aplicativo e valide o checkpoint antes de avançar.
+
 ## Verificar sintaxe
 
 ```bash
